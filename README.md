@@ -32,6 +32,17 @@ Fraud detection is a **highly imbalanced classification problem**, where fraudul
   - `Amount`, `Time`
   - `Class`: Target (1 = fraud, 0 = legitimate)
 
+## Dataset Access
+
+Due to GitHub file size limits, the dataset is not included in this repository.
+
+Please download the dataset from:
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+
+Place `creditcard.csv` inside:
+`fraud-detection/`
+
+
 ⚠️ **Important Constraint**  
 Raw transaction attributes (merchant, country, device, etc.) are **not available**. PCA features are **pre-applied by the data provider**, reflecting how real payment systems expose only anonymized internal signals to models.
 
